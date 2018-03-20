@@ -1,5 +1,4 @@
 #include<stdio.h>
-//#include<conio.h>
 #include<string.h>
 int n,m=0,p,i=0,j=0;
 char a[10][10],f[10];
