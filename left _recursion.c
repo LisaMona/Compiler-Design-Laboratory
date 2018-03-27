@@ -1,5 +1,5 @@
 /*
-Remove left recursion of any given grammar
+Remove left recursion of any grammar
 */
 
 #include<stdio.h>
