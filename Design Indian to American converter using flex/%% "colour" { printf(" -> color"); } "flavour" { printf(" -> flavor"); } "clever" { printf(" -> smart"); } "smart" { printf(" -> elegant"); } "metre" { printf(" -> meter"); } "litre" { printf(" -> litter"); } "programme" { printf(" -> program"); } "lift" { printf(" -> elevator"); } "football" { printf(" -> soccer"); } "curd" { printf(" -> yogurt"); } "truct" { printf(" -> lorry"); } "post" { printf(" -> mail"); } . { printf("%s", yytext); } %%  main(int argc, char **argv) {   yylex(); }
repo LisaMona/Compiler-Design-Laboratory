@@ -1,0 +1,24 @@
+/** 
+Design Indian to American converter using flex
+**/
+
+%%
+"colour"      { printf(" -> color");    }
+"flavour"     { printf(" -> flavor");   }
+"clever"      { printf(" -> smart");    }
+"smart"       { printf(" -> elegant");  }
+"metre"       { printf(" -> meter");    }
+"litre"       { printf(" -> litter");   }
+"programme"   { printf(" -> program");  }
+"lift"        { printf(" -> elevator"); }
+"football"    { printf(" -> soccer");   }
+"curd"        { printf(" -> yogurt");   }
+"truct"       { printf(" -> lorry");    }
+"post"        { printf(" -> mail");     }
+.             { printf("%s", yytext);   }
+%%
+
+main(int argc, char **argv)
+{
+  yylex();
+}
