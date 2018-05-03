@@ -1,4 +1,9 @@
-// Lex program to count the number of lines, words, characters and punctuations in a given input.
+/***
+Design a scanner using flex to count the number of ASCII characters, words, lines and punctuations in a given string.
+symbol set for words [a-zA-Z0-9]+
+punctuation symbols - . , : ; ? " '
+newline character \n
+***/
 
 
 %{
